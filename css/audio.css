@@ -1,0 +1,91 @@
+
+        .audio-wrapper {
+            background-color: #fcfcfc;
+            width: 98%;
+            height: 5vw;
+            border: 0.1vw solid #e0e0e0;
+            margin: 10px 10px;
+        }
+        .audio-left {
+            float: left;
+            text-align: center;
+            width: 8%;
+            height: 100%;
+        }
+        .audio-left img {
+            border-radius: 50%;
+            height: 50%;
+            position: relative;
+            top: 50%;
+            margin-top: -50%;
+            display: initial;
+            cursor: pointer;
+        }
+
+        .audio-right {
+            margin-right: 2%;
+            float: right;
+            width: 90%;
+            height: 100%;
+        }
+
+        .audio-right p {
+            font-size: 1.5vw;
+            height: 30%;
+            margin: 0.5%;
+            /* 歌曲名称只显示在一行，超出部分显示为省略号 */
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /* 要适配小屏幕手机，所以最大宽度设小一点，后面js根据屏幕大小重新设置 */
+            max-width: 24.3vw;
+        }
+
+        .progress-bar-bg {
+            background-color: #d9d9d9;
+            position: relative;
+            height: 0.2vw;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 0.5%;
+        }
+
+        .progress-bar {
+            background-color: #649fec;
+            width: 0;
+            height: 0.2vw;
+        }
+
+        .progress-bar-bg span {
+            content: "";
+            width: 1vw;
+            height: 1vw;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            background-color: #3e87e8;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -0.5vw;
+            margin-left: -0.5vw;
+        }
+
+        .audio-time {
+            overflow: hidden;
+        }
+
+        .audio-length-total {
+            float: right;
+            font-size: 1.2vw;
+        }
+
+        .audio-length-current {
+            float: left;
+            font-size: 1.2vw;
+        }
+
+
+
+        
+       
+
